@@ -12,8 +12,7 @@ const About = () => {
                     <Image
                         src={kinepaiva}
                         alt="Kinepaiva Image"
-                        layout="responsive"
-                    />
+                        objectFit="cover"                    />
                 </div>
 
                 <div>
