@@ -2,270 +2,71 @@ import React from 'react'
 
 const Testimonials = () => {
     return (
-        <section className="bg-gray-50">
-            <div className="mx-auto max-w-screen-2xl px-4 py-12 sm:px-6 lg:px-8 lg:py-16">
-                <div className="md:flex md:items-end md:justify-between">
-                    <div className="max-w-xl">
-                        <h2 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl">
-                        Lee reseñas confiables de mis clientes
-                        </h2>
+        <section class="bg-white dark:bg-gray-900">
+            <div class="container px-6 py-10 mx-auto">
+                <h1 class="text-2xl font-semibold text-center text-gray-800 capitalize lg:text-3xl dark:text-white">
+                    Lo que mis <span class="text-blue-500 ">clientes</span> dicen
+                </h1>
 
-                        <p className="mt-6 max-w-lg leading-relaxed text-gray-700">
-                        Puedes revisar todas las reseñas en mi página de Google Bussines Kinesiólogo Marcelo Paiva.
+                <p class="max-w-2xl mx-auto mt-6 text-center text-gray-500 dark:text-gray-300">
+                    Puedes revisar todas las reseñas en mi página de Google Bussines Kinesiólogo Marcelo Paiva.
+                </p>
+
+                <section class="grid grid-cols-1 gap-8 mt-8 xl:mt-12 lg:grid-cols-2 xl:grid-cols-3">
+                    <div class="p-8 border rounded-lg dark:border-gray-700">
+                        <p class="leading-loose text-gray-500 dark:text-gray-400">
+                            “Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore quibusdam ducimus libero ad
+                            tempora doloribus expedita laborum saepe voluptas perferendis delectus assumenda rerum, culpa
+                            aperiam dolorum, obcaecati corrupti aspernatur a.”.
                         </p>
+
+                        <div class="flex items-center mt-8 -mx-2">
+                            <img class="object-cover mx-2 rounded-full w-14 shrink-0 h-14 ring-4 ring-gray-300 dark:ring-gray-700" src="https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80" alt="" />
+
+                            <div class="mx-2">
+                                <h1 class="font-semibold text-gray-800 dark:text-white">Robert</h1>
+                                <span class="text-sm text-gray-500">CTO, Robert Consultency</span>
+                            </div>
+                        </div>
                     </div>
 
-                    <a
-                        href="#"
-                        className="mt-6 inline-flex shrink-0 items-center gap-2 rounded-full border border-rose-600 px-5 py-3 text-rose-600 transition hover:bg-rose-600 hover:text-white md:mt-0"
-                    >
-                        <span className="font-medium"> Leer todas las reseñas </span>
+                    <div class="p-8 border rounded-lg dark:border-gray-700">
+                        <p class="leading-loose text-gray-500 dark:text-gray-400">
+                            “Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore quibusdam ducimus libero ad
+                            tempora doloribus expedita laborum saepe voluptas perferendis delectus assumenda rerum, culpa
+                            aperiam dolorum, obcaecati corrupti aspernatur a.”.
+                        </p>
 
-                        <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            className="size-4 rtl:rotate-180"
-                            fill="none"
-                            viewBox="0 0 24 24"
-                            stroke="currentColor"
-                        >
-                            <path
-                                strokeLinecap="round"
-                                strokeLinejoin="round"
-                                strokeWidth="2"
-                                d="M14 5l7 7m0 0l-7 7m7-7H3"
-                            />
-                        </svg>
-                    </a>
-                </div>
+                        <div class="flex items-center mt-8 -mx-2">
+                            <img class="object-cover mx-2 rounded-full w-14 shrink-0 h-14 ring-4 ring-gray-300 dark:ring-gray-700" src="https://images.unsplash.com/photo-1531590878845-12627191e687?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80" alt="" />
 
-                <div className="mt-8 grid grid-cols-1 gap-4 md:grid-cols-3">
-                    <blockquote className="flex h-full flex-col justify-between bg-white p-6 shadow-sm sm:p-8">
-                        <div>
-                            <div className="flex gap-0.5 text-green-500">
-                                <svg
-                                    className="h-5 w-5"
-                                    fill="currentColor"
-                                    viewBox="0 0 20 20"
-                                    xmlns="http://www.w3.org/2000/svg"
-                                >
-                                    <path
-                                        d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
-                                    />
-                                </svg>
-
-                                <svg
-                                    className="h-5 w-5"
-                                    fill="currentColor"
-                                    viewBox="0 0 20 20"
-                                    xmlns="http://www.w3.org/2000/svg"
-                                >
-                                    <path
-                                        d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
-                                    />
-                                </svg>
-
-                                <svg
-                                    className="h-5 w-5"
-                                    fill="currentColor"
-                                    viewBox="0 0 20 20"
-                                    xmlns="http://www.w3.org/2000/svg"
-                                >
-                                    <path
-                                        d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
-                                    />
-                                </svg>
-
-                                <svg
-                                    className="h-5 w-5"
-                                    fill="currentColor"
-                                    viewBox="0 0 20 20"
-                                    xmlns="http://www.w3.org/2000/svg"
-                                >
-                                    <path
-                                        d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
-                                    />
-                                </svg>
-
-                                <svg
-                                    className="h-5 w-5"
-                                    fill="currentColor"
-                                    viewBox="0 0 20 20"
-                                    xmlns="http://www.w3.org/2000/svg"
-                                >
-                                    <path
-                                        d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
-                                    />
-                                </svg>
-                            </div>
-
-                            <div className="mt-4">
-                                <p className="text-2xl font-bold text-rose-600 sm:text-3xl">Stayin' Alive</p>
-
-                                <p className="mt-4 leading-relaxed text-gray-700">
-                                Desde la primera sesión bajaron significativamente las molestias. Escucha siempre
-                              mis comentarios y hace sugerencias para la vida cotidiana que ayudan mucho, se preocupa de
-                              hacer seguimiento diario que ayuda a mejorar cada día un poco más. Muy recomendado!.
-                                </p>
+                            <div class="mx-2">
+                                <h1 class="font-semibold text-gray-800 dark:text-white">Jeny Doe</h1>
+                                <span class="text-sm text-gray-500">CEO, Jeny Consultency</span>
                             </div>
                         </div>
+                    </div>
 
-                        <footer className="mt-4 text-sm font-medium text-gray-700 sm:mt-6">
-                            &mdash; Cecilia Baeza
-                        </footer>
-                    </blockquote>
+                    <div class="p-8 border rounded-lg dark:border-gray-700">
+                        <p class="leading-loose text-gray-500 dark:text-gray-400">
+                            “Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore quibusdam ducimus libero ad
+                            tempora doloribus expedita laborum saepe voluptas perferendis delectus assumenda rerum, culpa
+                            aperiam dolorum, obcaecati corrupti aspernatur a.”.
+                        </p>
 
-                    <blockquote className="flex h-full flex-col justify-between bg-white p-6 shadow-sm sm:p-8">
-                        <div>
-                            <div className="flex gap-0.5 text-green-500">
-                                <svg
-                                    className="h-5 w-5"
-                                    fill="currentColor"
-                                    viewBox="0 0 20 20"
-                                    xmlns="http://www.w3.org/2000/svg"
-                                >
-                                    <path
-                                        d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
-                                    />
-                                </svg>
+                        <div class="flex items-center mt-8 -mx-2">
+                            <img class="object-cover mx-2 rounded-full w-14 shrink-0 h-14 ring-4 ring-gray-300 dark:ring-gray-700" src="https://images.unsplash.com/photo-1488508872907-592763824245?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" alt="" />
 
-                                <svg
-                                    className="h-5 w-5"
-                                    fill="currentColor"
-                                    viewBox="0 0 20 20"
-                                    xmlns="http://www.w3.org/2000/svg"
-                                >
-                                    <path
-                                        d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
-                                    />
-                                </svg>
-
-                                <svg
-                                    className="h-5 w-5"
-                                    fill="currentColor"
-                                    viewBox="0 0 20 20"
-                                    xmlns="http://www.w3.org/2000/svg"
-                                >
-                                    <path
-                                        d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
-                                    />
-                                </svg>
-
-                                <svg
-                                    className="h-5 w-5"
-                                    fill="currentColor"
-                                    viewBox="0 0 20 20"
-                                    xmlns="http://www.w3.org/2000/svg"
-                                >
-                                    <path
-                                        d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
-                                    />
-                                </svg>
-
-                                <svg
-                                    className="h-5 w-5"
-                                    fill="currentColor"
-                                    viewBox="0 0 20 20"
-                                    xmlns="http://www.w3.org/2000/svg"
-                                >
-                                    <path
-                                        d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
-                                    />
-                                </svg>
-                            </div>
-
-                            <div className="mt-4">
-                                <p className="text-2xl font-bold text-rose-600 sm:text-3xl">Stayin' Alive</p>
-
-                                <p className="mt-4 leading-relaxed text-gray-700">
-                                Excelente experiencia! No solo por la gran atención y la estructura tecnológica .
-                              Marcelo también hace seguimiento y apoyo post terapia para asegurar buenos resultados e
-                              incorporarse rápidamente a los deportes o vida cotidiana.
-                                </p>
+                            <div class="mx-2">
+                                <h1 class="font-semibold text-gray-800 dark:text-white">Ema Watson </h1>
+                                <span class="text-sm text-gray-500">Marketing Manager at Stech</span>
                             </div>
                         </div>
-
-                        <footer className="mt-4 text-sm font-medium text-gray-700 sm:mt-6">
-                            &mdash; Juan Felipe Beneyto
-                        </footer>
-                    </blockquote>
-
-                    <blockquote className="flex h-full flex-col justify-between bg-white p-6 shadow-sm sm:p-8">
-                        <div>
-                            <div className="flex gap-0.5 text-green-500">
-                                <svg
-                                    className="h-5 w-5"
-                                    fill="currentColor"
-                                    viewBox="0 0 20 20"
-                                    xmlns="http://www.w3.org/2000/svg"
-                                >
-                                    <path
-                                        d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
-                                    />
-                                </svg>
-
-                                <svg
-                                    className="h-5 w-5"
-                                    fill="currentColor"
-                                    viewBox="0 0 20 20"
-                                    xmlns="http://www.w3.org/2000/svg"
-                                >
-                                    <path
-                                        d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
-                                    />
-                                </svg>
-
-                                <svg
-                                    className="h-5 w-5"
-                                    fill="currentColor"
-                                    viewBox="0 0 20 20"
-                                    xmlns="http://www.w3.org/2000/svg"
-                                >
-                                    <path
-                                        d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
-                                    />
-                                </svg>
-
-                                <svg
-                                    className="h-5 w-5"
-                                    fill="currentColor"
-                                    viewBox="0 0 20 20"
-                                    xmlns="http://www.w3.org/2000/svg"
-                                >
-                                    <path
-                                        d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
-                                    />
-                                </svg>
-
-                                <svg
-                                    className="h-5 w-5"
-                                    fill="currentColor"
-                                    viewBox="0 0 20 20"
-                                    xmlns="http://www.w3.org/2000/svg"
-                                >
-                                    <path
-                                        d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
-                                    />
-                                </svg>
-                            </div>
-
-                            <div className="mt-4">
-                                <p className="text-2xl font-bold text-rose-600 sm:text-3xl">Stayin' Alive</p>
-
-                                <p className="mt-4 leading-relaxed text-gray-700">
-                                Marcelo es un excelente profesional y me viene ayudando mucho con mis lesiones
-                              lumbares. Siempre al día con distintas técnicas y con un seguimiento impresionante.
-                              Recomiendo sin dudas su trabajo.
-                                </p>
-                            </div>
-                        </div>
-
-                        <footer className="mt-4 text-sm font-medium text-gray-700 sm:mt-6">
-                            &mdash; Hudson Oliveira da Silva
-                        </footer>
-                    </blockquote>
-                </div>
+                    </div>
+                </section>
             </div>
         </section>
+
     )
 }
 
