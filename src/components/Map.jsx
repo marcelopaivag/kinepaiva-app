@@ -10,7 +10,7 @@ const Map = ({ location }) => {
   const lat = location?.lat || defaultLocation.lat;
   const lng = location?.lng || defaultLocation.lng;
 
-  const url = `https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13327.78578339986!2d${lng}!3d${lat}!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662cbfa892465e3%3A0xba14c62880cae41d!2sYour+Business+Name!5e0!3m2!1sen!2scl!4v1709427938613!5m2!1sen!2scl`;
+  const url = `https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d832.9880589768534!2d${lng}!3d${lat}!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662cf345f2c0785%3A0xd1e1e9acddabae01!2sKinesi%C3%B3logo%20Marcelo%20Paiva%20G%C3%B3mez!5e0!3m2!1sen!2scl!4v1713724632536!5m2!1sen!2scl`;
 
   return (
     <div className="w-full overflow-hidden">
