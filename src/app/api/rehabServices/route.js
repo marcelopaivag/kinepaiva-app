@@ -7,7 +7,7 @@ export async function GET() {
 }
 
 export async function POST(request) {
-    const { title, description, text } = await request.json()
+    const { image, title, description, text } = await request.json()
     const newService = await prisma.service.create({
         data: {
             image,
