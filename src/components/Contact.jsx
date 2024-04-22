@@ -2,11 +2,11 @@ import React from 'react'
 
 const Contact = () => {
     return (
-        <section className="bg-white dark:bg-gray-900">
+        <section className="bg-white">
             <div className="container px-6 py-12 mx-auto">
                 <div className="lg:flex lg:items-center lg:-mx-6">
                     <div className="lg:w-1/2 lg:mx-6">
-                        <h1 className="text-2xl font-semibold text-gray-800 capitalize dark:text-white lg:text-3xl">
+                        <h1 className="text-2xl font-semibold text-gray-700 capitalize lg:text-3xl">
                             Contacto
                         </h1>
 
@@ -75,7 +75,7 @@ const Contact = () => {
                     <div className="mt-8 lg:w-1/2 lg:mx-6">
                         <div
                             className="w-full px-8 py-10 mx-auto overflow-hidden bg-white rounded-lg shadow-2xl dark:bg-gray-900 lg:max-w-xl shadow-gray-300/50 dark:shadow-black/50">
-                            <h1 className="text-lg font-medium text-gray-700">¿Quieres solicitar una hora o tienes alguna pregunta?</h1>
+                            <h1 className="text-lg font-medium text-gray-300">¿Quieres solicitar una hora o tienes alguna pregunta?</h1>
 
                             <form className="mt-6">
                                 <div className="flex-1">

@@ -69,8 +69,8 @@ const NavBar = () => {
                 <div className="space-y-1 px-2 pb-3 pt-2">
                     <Link className="bg-gray-900 text-white block rounded-md px-3 py-2 text-base font-medium" aria-current="page" href="/">Inicio</Link>
                     <Link className="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium" href="/about">Acerca</Link>
-                    <Link className="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium" href="/services">Servicios</Link>
-                    <Link className="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium" href="/cites">Agenda tu cita</Link>
+                    <Link className="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium" href="/rehabServices">Servicios</Link>
+                    <Link className="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium" href="/contact">Agenda tu cita</Link>
                     <Link className="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium" href="/blog">Blog</Link>
                 </div>
             </div>
