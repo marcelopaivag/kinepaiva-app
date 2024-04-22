@@ -25,7 +25,7 @@ const Footer = () => {
                         <ul className="mt-8 flex gap-6">
                             <li>
                                 <a
-                                    href="#"
+                                    href="https://www.facebook.com/kinepaiva"
                                     rel="noreferrer"
                                     target="_blank"
                                     className="transition hover:opacity-75"
@@ -44,7 +44,7 @@ const Footer = () => {
 
                             <li>
                                 <a
-                                    href="#"
+                                    href="https://www.instagram.com/kinepaiva/"
                                     rel="noreferrer"
                                     target="_blank"
                                     className="transition hover:opacity-75"
