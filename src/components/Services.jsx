@@ -17,7 +17,7 @@ async function Services() {
           </div>
           <div className="flex flex-wrap sm:flex-row flex-col py-6 mb-12">
             <h1 className="sm:w-2/5 text-gray-900 font-medium title-font text-2xl mb-2 sm:mb-0">Servicios</h1>
-            <p className="sm:w-3/5 leading-relaxed text-base sm:pl-10 pl-0">Con ejercicio terapéutico, educación y fisioterapia soy el encargado de asistrir una recuperación de la que tú debes ser protagonista.</p>
+            <p className="sm:w-3/5 leading-relaxed text-base sm:pl-10 pl-0">Descubre cómo la kinesiología especializada en rehabilitación musculoesquelética puede ayudarte a recuperarte y mejorar tu calidad de vida. Con enfoque en ejercicio terapéutico, terapia manual ortopédica y fisioterapia, incluyendo tecnologías como la tecarterapia, te acompañamos en tu camino hacia la recuperación y el bienestar.</p>
           </div>
         </div>
         <div className="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4">
