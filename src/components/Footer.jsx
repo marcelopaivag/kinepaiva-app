@@ -10,13 +10,50 @@ const Footer = () => {
                         <p>
                         <Image width={200} height={60} className="" src={logo} alt="Logo" />
 
-                            <span className="text-xs uppercase tracking-wide"> Llámame </span>
+                            <span className="text-xs uppercase tracking-wide">Llámame o escribeme por Whatsapp</span>
 
                             <a href="#" className="block text-2xl font-medium hover:opacity-75 sm:text-3xl">
                             +56 9 882 34 993
                             </a>
                         </p>
+                    </div>
 
+                    <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
+                        <div>
+                            <p className="font-medium text-gray-100">Servicios</p>
+
+                            <ul className="mt-6 space-y-4 text-sm">
+                                <li>
+                                    <a href="/rehabServices/1" className="text-gray-200 transition hover:opacity-75">Ejercicio Terapéutico</a>
+                                </li>
+
+                                <li>
+                                    <a href="/rehabServices/2" className="text-gray-200 transition hover:opacity-75">Terapia Manual Ortopédica</a>
+                                </li>
+
+                                <li>
+                                    <a href="/rehabServices/3" className="text-gray-200 transition hover:opacity-75">Fisioterapia</a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div>
+                            <p className="font-medium text-gray-100">Nosotros</p>
+
+                            <ul className="mt-6 space-y-4 text-sm">
+                                <li>
+                                    <a href="/" className="text-gray-200 transition hover:opacity-75">Inicio</a>
+                                </li>
+
+                                <li>
+                                    <a href="/about" className="text-gray-200 transition hover:opacity-75">Acerca de</a>
+                                </li>
+
+                                <li>
+                                    <a href="/contact" className="text-gray-200 transition hover:opacity-75">Contacto</a>
+                                </li>
+                            </ul>
+                        </div>
                         <ul className="mt-8 space-y-1 text-sm">
                             <li>Lunes a Viernes: 10am - 5pm</li>
                             <li>Sábados: 10am - 3pm</li>
@@ -61,52 +98,6 @@ const Footer = () => {
                                 </a>
                             </li>
                         </ul>
-                    </div>
-
-                    <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
-                        <div>
-                            <p className="font-medium text-gray-100">Servicios</p>
-
-                            <ul className="mt-6 space-y-4 text-sm">
-                                <li>
-                                    <a href="#" className="text-gray-200 transition hover:opacity-75"> Kinesiología </a>
-                                </li>
-
-                                <li>
-                                    <a href="#" className="text-gray-200 transition hover:opacity-75"> Fisioterapia </a>
-                                </li>
-
-                                <li>
-                                    <a href="#" className="text-gray-200 transition hover:opacity-75"> Osteopatía </a>
-                                </li>
-
-                                <li>
-                                    <a href="#" className="text-gray-200 transition hover:opacity-75"> Entrenamiento  </a>
-                                </li>
-
-                                <li>
-                                    <a href="#" className="text-gray-200 transition hover:opacity-75"> Educación </a>
-                                </li>
-                            </ul>
-                        </div>
-
-                        <div>
-                            <p className="font-medium text-gray-100">Nosotros</p>
-
-                            <ul className="mt-6 space-y-4 text-sm">
-                                <li>
-                                    <a href="#" className="text-gray-200 transition hover:opacity-75"> Acerca de </a>
-                                </li>
-
-                                <li>
-                                    <a href="#" className="text-gray-200 transition hover:opacity-75"> Formación Académica </a>
-                                </li>
-
-                                <li>
-                                    <a href="#" className="text-gray-200 transition hover:opacity-75"> Opinión de nuestros usuarios </a>
-                                </li>
-                            </ul>
-                        </div>
                     </div>
                 </div>
 
