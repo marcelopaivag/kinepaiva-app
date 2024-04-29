@@ -8,7 +8,7 @@ const About = () => {
             <div className="overflow-hidden bg-white dark:bg-gray-900 lg:mx-8 lg:flex lg:max-w-6xl lg:w-full lg:shadow-md lg:rounded-xl">
                 <div className="lg:w-1/2">
                     <div className="h-80 md:h-full">
-                        <Image src={kinepaiva} className="object-cover h-full w-full" />
+                        <Image src={kinepaiva} className="object-cover h-full w-full"/>
                     </div>
                 </div>
 
